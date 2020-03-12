@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/Users/zhaoxin/Code/go/pingcap'
+let g:netrw_dirhist_0='/Users/zhaoxin/Code/go'
+let g:netrw_dirhist_9='/Users/zhaoxin/Code/go/pingcap'
+let g:netrw_dirhist_8='/Users/zhaoxin/Code/go/pingcap/parser'
+let g:netrw_dirhist_7='/Users/zhaoxin/.cargo'
+let g:netrw_dirhist_6='/Users/zhaoxin/Code/test'
+let g:netrw_dirhist_5='/Users/zhaoxin/Code/test/talent-plan'
+let g:netrw_dirhist_4='/Users/zhaoxin/Code/gopath/pkg/mod/github.com/zhaox1n/parser@v0.0.0-20200117065503-c57b9db96b71'
+let g:netrw_dirhist_3='/Users/zhaoxin/Code/gopath/pkg/mod/github.com/zhaox1n'
+let g:netrw_dirhist_2='/Users/zhaoxin/Code/gopath/pkg/mod/github.com'
