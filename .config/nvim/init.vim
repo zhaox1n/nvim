@@ -1,1 +1,0 @@
-/Users/zhaoxin/.vimrc
