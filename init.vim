@@ -16,14 +16,11 @@ set noexpandtab
 filetype plugin indent on
 set clipboard=unnamedplus
 
-<<<<<<< HEAD
 " set rtp+=/usr/lib/python3.8/site-packages/powerline/bindings/vim/
 " let g:powerline_pycmd="py"
 " set laststatus=2
 " set t_Co=256
 
-=======
->>>>>>> e058e51608dc16cb762ec0eb6ae5d8741fa3e866
 call plug#begin('~/.vim/plugged')
 
 Plug 'mhinz/vim-startify'
@@ -75,13 +72,8 @@ Plug 'sakhnik/nvim-gdb', { 'do': ':!./install.sh \| UpdateRemotePlugins' }
 Plug 'rust-lang/rust.vim'
 call plug#end()
 
-<<<<<<< HEAD
 " let g:python_host_prog='/usr/bin/python2.7'
 let g:python3_host_prog='/usr/bin/python3.8' 
-=======
-let g:python3_host_prog='/usr/local/bin/python3' 
-let g:python_host_prog='/usr/local/bin/python'
->>>>>>> e058e51608dc16cb762ec0eb6ae5d8741fa3e866
 
 colorscheme gruvbox
 
