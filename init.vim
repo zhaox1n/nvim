@@ -3,7 +3,7 @@ set cursorline
 set autoindent
 set smartindent
 " set ts=4
-" test ssh for manjaro
+" test ssh for manjaro 2
 set expandtab
 set autoindent
 set splitright
