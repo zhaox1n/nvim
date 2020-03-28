@@ -1,0 +1,50 @@
+
+{
+  "languageserver": {
+    "golang": {
+      "command":"gopls",
+	  "rootPatterns": ["go.mod"],
+	  "filetypes": ["go"]
+    },
+	// "clangd": {
+    //  "command": "clangd",
+    //  "args": ["--background-index"],
+    //  "rootPatterns": ["compile_flags.txt", "compile_commands.json", ".vim/", ".git/", ".hg/"],
+    //  "filetypes": ["c", "cpp", "objc", "objcpp"]
+    // },
+	"rust": {
+      "command": "ra_lsp_server",
+      "filetypes": ["rust"],
+      "rootPatterns": ["Cargo.toml"]
+    },
+	"ccls": {
+      "command": "ccls",
+      "filetypes": ["c", "cpp", "cuda", "objc", "objcpp", "cc"],
+      "rootPatterns": [".ccls-root", "compile_commands.json"],
+      "initializationOptions": {
+        "cache": {
+          "directory": ".ccls-cache"
+        },
+        "client": {
+          "snippetSupport": true
+        }
+      }
+    }
+  },
+	"explorer.source":[
+     {
+       "name":"buffer",
+	   "expand":true
+	 },
+	 {
+       "name":"file",
+	   "expand":true
+	 }
+   ],
+   "explorer.keyMappings": {
+      "<space>":"toggleSelection"
+   },
+   "explorer.icon.enableNerdfont": true
+
+}
+
