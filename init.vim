@@ -55,6 +55,8 @@ Plug 'junegunn/vim-peekaboo'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 
+" Plug 'vim-scripts/Conque-GDB'
+
 " if has('nvim')
   " Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 " else
@@ -70,6 +72,7 @@ Plug 'sakhnik/nvim-gdb', { 'do': ':!./install.sh \| UpdateRemotePlugins' }
 " 
 "Plug 'racer-rust/vim-racer'
 Plug 'rust-lang/rust.vim'
+"Plug 'rhysd/vim-goyacc'
 call plug#end()
 
 " let g:python_host_prog='/usr/bin/python2.7'
@@ -248,7 +251,7 @@ nmap <silent> [g <Plug>(coc-diagnostic-prev)
 nmap <silent> ]g <Plug>(coc-diagnostic-next)
 
 " Remap keys for gotos
-nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gt <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
@@ -336,3 +339,6 @@ let g:dekve_backend="native"
 
 " ack.nvim
 let g:ackprg = 'ag --vimgrep'
+
+autocmd FileType go nmap <Leader>c <Plug>(go-callers)
+"autocmd BufNewFile,BufReadPost *.y setlocal filetype=goyacc
